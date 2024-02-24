@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/* Css foro font start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+
+.poppins-medium{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+/* Css for font end */
+
+/* Css for root */
+:root{
+    --main-color: #9b45c0;
+    --black: #222;
+    --white:#fff;
+    --light-black:#777;
+    --light-white:#fff9;
+    --dark-bg:rgba(0,0,0,0.7);
+    --light-bg:#eee;
+    --border:1 rem solid var(--black);
+    --box-shadow:0 0.5rem 1rem rgba(0,0,0,.1);
+    --box-shadow:0 1.5rem 3rem rgba(0,0,0,.3);
+}
+
+html{
+    font-size: 65%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: var(--white);
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+section{
+    padding: 5rem 10%;
+}
+.header{
+    position: sticky;
+    top:0; left:0 ; right:0;
+    z-index:1000;
+    background-color: var(--white);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow:var(--box-shadow);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: var(--black);
+}
+.header .navbar a:hover{
+    color: var(--main-color);
+}
+
+#menu-btn{
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: var(--black);
+    display: none;
+}
+
+/* css for book page starts */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+/* css for book page ends */
+
+
+
+/* Css for book.php */
+.booking .book-form{
+    /* height: 600px; */
+    /* padding:2rem; */
+    background-color: var(--light-bg);
+
+}
+
+.booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.booking .book-form .flex .inputbox{
+    height: 40px;
+    flex:1 1 50rem;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.heading-title{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 10%;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+
+/* Footer Css starts */
+#foot1{
+    height: 300px;
+    background-color: #0f1111;
+    color: #e2e7e6;
+    display: flex;
+    justify-content: left;
+}
+#link1{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 250px;
+}
+#link2{
+    margin-top: 80px;
+}
+#link3{
+    margin-top: 60px;
+    margin-left: 100px;
+}
+#t2,#t3,#t4,#t5,#t6,#t7,#t8,#t1,#t9,#c2,#c3,#c4,#c5{
+    margin-top: 20px;
+    font-size: medium;
+}
+#t1,#c1{
+    font-size:larger;
+    font-weight: bolder;
+}
+#c2,#c3,#c4,#c5,#c1{
+    font-size: large;
+    /* font-weight: bold; */
+}
+/* Footer Css ends */
+
+
+/*@media (max-width:1200px){                           This is not working
+    section{
+        padding:3rem 5%;
+    }
+}
+@media (max-width:991px){
+    html {
+        font-size: 55%;
+    }
+ 
+    section{
+        padding:3rem 2rem;
+    }
+}
+
+ @media (max-width:768px){
+
+    #menu-btn{
+        display:inline-block;
+        transition: .2s linear;
+    }
+    #menu-btn.fa-times{
+        transform: rotate(180deg);
+    }
+    .header .navbar{
+         position:absolute;
+         top:99%;
+         left:0;
+         right:0;
+         background-color: var(--white);
+         border-top: var(--border);
+         padding: 2rem;
+    }
+
+    .header .navbar.active{
+        clip-path: polygon(0 0,100%  0, 100% 100%, 0 100%);
+    }
+
+    .header .navbar a{
+        display:block;
+        margin: 2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width:450px){
+    html {
+        font-size: 50%;
+    }
+} */
