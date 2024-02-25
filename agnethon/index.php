@@ -8,6 +8,7 @@
     <!-- Adding Font cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/package.css">
     <!-- Swipper from cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
@@ -35,9 +36,9 @@
     <div class="slider">
         <div class="slides">
             <img src="Images/Slides/beach.jpg" alt="Image 1" class="slide">
-            <img src="Images/Slides/hs2.jpg" alt="Image 2" class="slide">
-            <img src="Images/Slides/hs3.jpg" alt="Image 3" class="slide">
-            <!-- Add more images here -->
+            <img src="Images/Slides/Historical.jpg" alt="Image 3" class="slide">
+            <img src="Images/Slides/Mountains.jpg" alt="Image 3" class="slide">
+            <img src="Images/Slides/hs3.jpg" alt="Image 4" class="slide">
     </div>
   </div>
  <!-- home Section ends here  -->
@@ -61,7 +62,7 @@
             </div>
 
             <div class="box">
-                <img src="./Images/hiking.png" alt="" height="100px" width="100px">
+                <img src="./Images/trekking-icon.png" alt="" height="100px" width="100px">
                 <h2>Trekking </h2>
             </div>
 
@@ -77,6 +78,125 @@
         </div>
     </section>
     <!-- Services section ends here -->
+
+    <!-- Packages Section starts -->
+    <div id="package-range">
+    <h2>International Packages</h2>
+</div>
+<div class="package-range-section">
+    <div class="package-box1 package-box">
+        <div class="package-box-content">
+             <div id="package-box-heading">
+                <h1>France</h1>
+            </div> 
+            <div id="package-box-img" href="index.php" style="background-image: url(Images/packages/paris-img.jpg);"></div>
+            <p>Duration : 13N/14D</p>
+            <p>Cost per person : ₹2,96,852</p>
+            <div class="packageLandmark">
+                <p>Landmarks:</p>
+                <a href="/agnethon/info-pack/france.php"><button class="packageBtn" >Panormic View</button></a>
+                <a href="/agnethon/info-pack/france.php"><button class="packageBtn" >UNESCO sites</button></a>
+                <a href="/agnethon/info-pack/france.php"><button class="packageBtn" >Iconic Landmarks</button></a>
+            </div>
+    </div>
+    </div>
+    <div class="package-box1 package-box">
+        <div class="package-box-content">
+             <div id="package-box-heading">
+                <h1>England</h1>
+            </div> 
+            <div id="package-box-img" style="background-image: url(Images/packages/london-img.jpg);"></div>
+            <p>Duration : 11N/10D</p>
+            <p>Cost per person : ₹2,51,688</p>
+            <div class="packageLandmark">
+                <p>Landmarks:</p>
+                <a href="/agnethon/info-pack/england.php"><button class="packageBtn" >Museum</button></a>
+                <a href="/agnethon/info-pack/england.php"><button class="packageBtn" >Art Gallery</button></a>
+                <a href="/agnethon/info-pack/england.php"><button class="packageBtn" >British Parliament</button></a>
+            </div>
+    </div>
+    </div>
+    <div class="package-box1 package-box">
+        <div class="package-box-content">
+             <div id="package-box-heading">
+                <h1>Italy</h1>
+            </div> 
+            <div id="package-box-img" style="background-image: url(Images/packages/italy-img.webp);"></div>
+            <p>Duration : 14N/13D</p>
+            <p>Cost per person : ₹2,31,349</p>
+            <div class="packageLandmark">
+                <p>Landmarks:</p>
+                <a href="/agnethon/info-pack/italy.php"><button class="packageBtn" >Colloseum's</button></a>
+                <a href="/agnethon/info-pack/italy.php"><button class="packageBtn" >Castels</button></a>
+                <a href="/agnethon/info-pack/italy.php"><button class="packageBtn" >Historical Landmarks</button></a>
+            </div>
+    </div>
+    </div>
+</div>
+
+<div id="see-more">
+<a href="package.php"><button id="see_more_btn">Click for more exciting packages</button></a>
+</div>
+
+<div id="package-range">
+    <h2>Domestic Packages</h2>
+</div>
+<div class="package-range-section">
+    <div class="package-box1 package-box">
+        <div class="package-box-content">
+             <div id="package-box-heading">
+                <h1>Kerala</h1>
+            </div> 
+            <div id="package-box-img" style="background-image: url(Images/packages/kerala-img1.jpg);"></div>
+            <p>Duration : 12D/11N</p>
+            <p>Cost per person : ₹44,970</p>
+            <div class="packageLandmark">
+                <p>Landmarks:</p>
+                <a href="/agnethon/info-pack/kerala.php"><button class="packageBtn" >Houseboats</button></a>
+                <a href="/agnethon/info-pack/kerala.php"><button class="packageBtn" >Trekking</button></a>
+                <a href="/agnethon/info-pack/kerala.php"><button class="packageBtn" >National Park</button></a>
+            </div>
+    </div>
+    </div>
+    <div class="package-box1 package-box">
+        <div class="package-box-content">
+             <div id="package-box-heading">
+                <h1>Rajasthan</h1>
+            </div> 
+            <div id="package-box-img" style="background-image: url(Images/packages/rajasthan-img.jpg);"></div>
+            <p>Duration : 8D/7N</p>
+            <p>Cost per person : ₹37,890</p>
+            <div class="packageLandmark">
+                <p>Landmarks:</p>
+                <a href="/agnethon/info-pack/rajasthan.php"><button class="packageBtn" >Historic Fort</button></a>
+                <a href="/agnethon/info-pack/rajasthan.php"><button class="packageBtn" >Camel Safaris</button></a>
+                <a href="/agnethon/info-pack/rajasthan.php"><button class="packageBtn" >Palaces</button></a>
+            </div>
+    </div>
+    </div>
+    <div class="package-box1 package-box">
+        <div class="package-box-content">
+             <div id="package-box-heading">
+                <h1>Goa</h1>
+            </div> 
+            <div id="package-box-img" style="background-image: url(Images/packages/goa-img1.jpg);"></div>
+            <p>Duration : 6D/6N</p>
+            <p>Cost per person : ₹28,580</p>
+            <div class="packageLandmark">
+                <p>Landmarks:</p>
+                <a href="/agnethon/info-pack/goa.php"><button class="packageBtn" >Beaches</button></a>
+                <a href="/agnethon/info-pack/goa.php"><button class="packageBtn" >Churches</button></a>
+                <a href="/agnethon/info-pack/goa.php"><button class="packageBtn" >Vibrant Nightlife</button></a>
+            </div>
+    </div>
+    </div>
+</div>
+<div id="see-more">
+<a href="index1.php"><button id="see_more_btn">Click for more exciting packages</button></a>
+</div>
+
+<!-- Package Section ends -->
+
 
     <!-- home about section starts -->
     <section class="home-about">
@@ -95,75 +215,170 @@
         </div>
     </section>
     <!-- home about section endss -->
+<!-- Reviews section starts -->
+<section class="reviews">
+
+<div class="swiper reviews-slider">
+
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slider slide">
+
+            <div class="stars">
+
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorem odit distinctio
+                vero accusamus odio voluptate autem quas aliquid, quidem maxime totam officiis laborum cumque
+                commodi omnis est. Ipsum, quam.
+            </p>
+            <h3>Amelia</h3>
+            <span>Traveler</span>
+            <img src="./Review Ppl Images/p1.jpg" alt="">
+
+        </div>
+
+        <div class="swiper-slider slide">
+
+            <div class="stars">
+
+                <!-- <i class="fas fa-star"> </i> -->
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorem odit distinctio
+                vero accusamus odio voluptate autem quas aliquid, quidem maxime totam officiis laborum cumque
+                commodi omnis est. Ipsum, quam.
+            </p>
+            <h3>Gemma</h3>
+            <span>Traveler</span>
+            <img src="./Review Ppl Images/p2.jpg" alt="">
+        </div>
+
+        <div class="swiper-slider slide">
+
+            <div class="stars">
+
+                
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorem odit distinctio
+                vero accusamus odio voluptate autem quas aliquid, quidem maxime totam officiis laborum cumque
+                commodi omnis est. Ipsum, quam.
+            </p>
+            <h3>Brandon</h3>
+            <span>Traveler</span>
+            <img src="./Review Ppl Images/p3.jpg" alt="">
+        </div>
+
+        <div class="swiper-slider slide">
+
+            <div class="stars">
+
+                <!-- <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i> -->
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorem odit distinctio
+                vero accusamus odio voluptate autem quas aliquid, quidem maxime totam officiis laborum cumque
+                commodi omnis est. Ipsum, quam.
+            </p>
+            <h3>Steve Jon</h3>
+            <span>Traveler</span>
+            <img src="./Review Ppl Images/p4.jpg" alt="">
+        </div>
+
+        <div class="swiper-slider slide">
+
+            <div class="stars">
+
+          
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolorem odit distinctio
+                vero accusamus odio voluptate autem quas aliquid, quidem maxime totam officiis laborum cumque
+                commodi omnis est. Ipsum, quam.
+            </p>
+            <h3>Camilia</h3>
+            <span>Traveler</span>
+            <img src="./Review Ppl Images/p5.jpg" alt="">
+        </div>
 
 
+    </div>
 
-
-<label for="stateSelect">Select your state:</label>
-<select id="stateSelect" name="stateSelect">
-    <option value="">Select...</option>
-    <option value="Kerala">Kerala</option>
-    <option value="Rajasthan">Rajasthan</option>
-    <option value="Goa">Goa</option>
-    <!-- Add more options as needed -->
-</select>
-
-<div id="keralaContent" class="hidden">
-    <h2>Kerala Content</h2>
-    <p>This content is specific to Kerala.</p>
-    <div id="servicesDropDown">
-          <div class="boxDropDown">
-              <img src="Images/img.jpg" alt="">
-              <h2 class="h-secondary center">Wayanad</h2>
-              <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et qui, repudiandae similique nam, recusandae quidem ab asperiores ex, aut fugit labore veritatis facere?
-                  sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
-                  voluptas beatae facilis labore, omnis sint quae eum.</p>
-          </div>
-          <div class="boxDropDown">
-              <img src="Images/beach.jpg" alt="">
-              <h2 class="h-secondary center">Kochi</h2>
-              <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium a incidunt animi ad, ab dignissimos vero? Unde numquam odit repudiandae perferendis nisi.
-
-                  sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
-                  voluptas beatae facilis labore, omnis sint quae eum.</p>
-          </div>
-          <div class="boxDropDown">
-              <img src="Images/beach.jpg" alt="">
-              <h2 class="h-secondary center">Munnar</h2>
-              <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident fugiat aliquam minima at explicabo. Earum eveniet quaerat, sunt molestias nesciunt quas! Quis.
-                  sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
-                  voluptas beatae facilis labore, omnis sint quae eum.</p>
-          </div>
-      </div>
 </div>
 
-<div id="rajasthanContent" class="hidden">
-    <h2>Rajasthan Content</h2>
-    <p>This content is specific to Rajasthan.</p>
-</div>
+</section>
 
-<div id="GoaContent" class="hidden">
+<!-- Reviews section ends --> 
+
+<!-- packages drop down section -->
+
+<div id="selection">
+    <label for="stateSelect">Select your state:</label>
+    <select id="stateSelect" name="stateSelect">
+        <option value="">Select...</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Goa">Goa</option>
+    </select>
+
+    <div id="keralaContent" class="hidden">
+        <h2>Kerala Content</h2>
+        <p>This content is specific to Kerala.</p>
+        <a src="/agnethon/info-pack/kerala.php"><><button>click to view</button></a>
+    </div>
+
+    <div id="rajasthanContent" class="hidden">
+        <h2>Rajasthan Content</h2>
+        <p>This content is specific to Rajasthan.</p>
+        <a src="/agnethon/info-pack/rajasthan.php"><><button>click to view</button></a>
+    </div>
+
+    <div id="GoaContent" class="hidden">
     <h2>Goa Content</h2>
-    <p>This content is specific to Goa.</p>
-</div>
+        <p>This content is specific to Goa.</p>
+        <a src="/agnethon/info-pack/goa.php"><><button>click to view</button></a>
+    </div>
 
 <script>
-    // JavaScript to show/hide content based on state selection
     document.getElementById("stateSelect").addEventListener("change", function() {
         var selectedState = this.value.trim();
         var keralaContent = document.getElementById("keralaContent");
         var rajasthanContent = document.getElementById("rajasthanContent");
         var GoaContent = document.getElementById("GoaContent");
 
-        // Hide all content initially
         keralaContent.classList.add("hidden");
         rajasthanContent.classList.add("hidden");
         GoaContent.classList.add("hidden");
 
-        // Show content based on selected state
         switch (selectedState) {
             case "Kerala":
                 keralaContent.classList.remove("hidden");
@@ -174,10 +389,10 @@
             case "Goa":
                 GoaContent.classList.remove("hidden");
                 break;
-            // Add more cases for additional states
         }
     });
 </script>
+</div>
 <!-- Main ends here -->
 <!-- Footer Section Starts -->
 <footer>
@@ -212,3 +427,7 @@
     <script src="js/script.js"></script>
 </body>
 </html>
+
+
+<!-- rgb(248 31 81)
+rgb(248 31 81); -->

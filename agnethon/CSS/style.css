@@ -176,6 +176,13 @@ section{
     padding-top: 1rem;
 }
 
+
+.services-title{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .home-about{
     display: flex;
     align-items: center;
@@ -342,54 +349,104 @@ section{
 }
 /* Footer Css ends */
 
-
-/*@media (max-width:1200px){                           This is not working
-    section{
-        padding:3rem 5%;
-    }
+/* css for package in home section */
+#range{
+    height: 33px;
+    text-align: center;
+    background-color:#d3d3d3;
+    /* color: #ffffd3; */
+    font-size: 25px;
+    font-weight: bold;
 }
-@media (max-width:991px){
-    html {
-        font-size: 55%;
-    }
- 
-    section{
-        padding:3rem 2rem;
-    }
+.range-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e2e7e6;
 }
-
- @media (max-width:768px){
-
-    #menu-btn{
-        display:inline-block;
-        transition: .2s linear;
-    }
-    #menu-btn.fa-times{
-        transform: rotate(180deg);
-    }
-    .header .navbar{
-         position:absolute;
-         top:99%;
-         left:0;
-         right:0;
-         background-color: var(--white);
-         border-top: var(--border);
-         padding: 2rem;
-    }
-
-    .header .navbar.active{
-        clip-path: polygon(0 0,100%  0, 100% 100%, 0 100%);
-    }
-
-    .header .navbar a{
-        display:block;
-        margin: 2rem;
-        text-align: center;
-    }
+#box-img{
+    height: 230px;
+    /* background-image: url('image1.jpg'); */
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+}
+.box-d{
+    background-color: white;
+    height: 300px;
+    border: 2px solid black;
+    width: 23%;
+    margin-bottom: 25px;
+    padding: 20px 0px 15px;
+}
+.box-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#box-heading{
+    background-color: #ffffd3;
 }
 
-@media (max-width:450px){
-    html {
-        font-size: 50%;
-    }
-} */
+/* css for section of states */
+#selection{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+label{
+    font-size: 25px;
+}
+
+ #head-info button{
+    margin-left: 25%;
+ }
+
+
+ /* Review Section */
+
+
+.reviews{
+    background: var(--light-bg);
+}
+
+.reviews .slide{
+    padding: 2rem;
+    border: var(--border);
+    background: var(--white);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+.reviews .slide .stars{
+    padding-bottom: 0.5rem;
+}
+.reviews .slide .stars i{
+    font-size: 1.7rem;
+    color: var(--main-color);
+}
+
+.reviews .slide p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.reviews .slide h3{
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.reviews .slider span{
+    font-size: 1.5rem;
+    color: var(--main-color);
+    display: block;
+}
+
+.reviews .slide img{
+   height: 14rem;
+   width: 14rem;
+   border-radius: 50%;
+   margin-top: 1rem;
+}
