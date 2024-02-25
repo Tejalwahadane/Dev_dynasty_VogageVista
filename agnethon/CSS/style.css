@@ -32,6 +32,9 @@
     --box-shadow:0 0.5rem 1rem rgba(0,0,0,.1);
     --box-shadow:0 1.5rem 3rem rgba(0,0,0,.3);
 }
+.hidden {
+    display: none;
+}
 
 html{
     font-size: 65%;
@@ -52,11 +55,44 @@ html::-webkit-scrollbar-thumb{
 section{
     padding: 5rem 10%;
 }
+
+
+@keyframes fadeIn {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+.btn{
+    display: inline-block;
+    background: var(--black);
+    margin-top: 1rem;
+    color: var(--white);
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    min-width: 11rem;
+}
+
+.btn:hover{
+    background: var(--main-color);
+}
+
+.heading-title{
+    margin-right: 30%;
+    text-align: center;
+    margin-bottom: 6rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
 .header{
     position: sticky;
     top:0; left:0 ; right:0;
     z-index:1000;
-    background-color: var(--white);
+    background-color: #282b2b;
     padding-top: 2rem;
     padding-bottom: 2rem;
     box-shadow:var(--box-shadow);
@@ -67,13 +103,14 @@ section{
 
 .header .logo{
     font-size: 2.5rem;
-    color: var(--black);
+    color: var(--white);
 }
 
 .header .navbar a{
+    color: #e2e7e6;
     font-size: 2rem;
     margin-left: 2rem;
-    color: var(--black);
+    /* color: var(--black); */
 }
 .header .navbar a:hover{
     color: var(--main-color);
@@ -85,6 +122,129 @@ section{
     color: var(--black);
     display: none;
 }
+
+
+/* css for index.php home , slidder and about us starts */
+.home{
+    padding: 0;
+}
+
+/* Css for home slider */
+.slider {
+    height: 550px;
+    /* width: 1000px; */
+    overflow: hidden;
+    margin: 0 auto;
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+ } 
+.slide {
+    width: 100%;
+}
+#heading{
+    display:block;
+    text-align:center;
+    font-size:2em;
+    margin:10px 0px;
+  
+}
+
+/* css for services blocks */
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 3.5rem;
+}
+
+.services .box-container .box{
+    padding: 3rem 2rem;
+    text-align: center;
+    background: var(--main-color);
+    cursor: pointer;
+}
+.services .box-container .box:hover{
+    background: lightblue;
+}
+.services .box-container .box img{
+    height: 8rem;
+}
+.services .box-container .box h2{
+    color: var(--white);
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+
+.home-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-about .image{
+    flex: 1 1 41rem;
+}
+
+.home-about .image img{
+    width: 100%;
+}
+
+.home-about .content{
+    flex: 1 1 41rem;
+    padding: 3rem;
+    background: var(--light-bg);
+    height: 300px;
+}
+
+.home-about .content h3{
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.home-about .content p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: var(--black);
+}
+
+/* DropDown Section */
+#servicesDropDown{
+    margin: 34px;
+    display: flex;
+}
+#servicesDropDown .boxDropDown{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 30px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+.btn_dropDown{
+    height: 30px;
+    font-size: 13px;
+    padding: 4px 8px;
+    background-color: rgb(28, 44, 44);
+    color: aliceblue;
+}
+
+#servicesDropDown .boxDropDown img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#servicesDropDown .boxDropDown p{
+    font-family: 'Bree Serif', serif;
+
+}
+#servicesDropDown{
+    height: 500px;
+}
+
+
 
 /* css for book page starts */
 .order{
@@ -105,9 +265,15 @@ section{
 }
 /* css for book page ends */
 
-
-
 /* Css for book.php */
+#book-bg-img{
+    height: 500px;
+    background-image: url("../book-img.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+
 .booking .book-form{
     /* height: 600px; */
     /* padding:2rem; */
@@ -128,10 +294,11 @@ section{
     font-weight: 700;
 }
 
-.heading-title{
-    font-size: xx-large;
+.heading-title1{
+    font-size: 40px;
     text-align: center;
     margin-bottom: 10px;
+    padding-left: 35%;
 }
 
 .btn{

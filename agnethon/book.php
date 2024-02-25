@@ -27,10 +27,12 @@
     </section>
     <!-- Header sections ends here -->
 
-
-    <section class="booking">
-        <h1 class="heading-title">Plan your Trip now!!!</h1>
-        
+    <section>
+        <div id="book-bg-img">
+            <h1 class="heading-title1">Plan your Trip now!!!</h1>
+        </div>
+    </section>
+    <section id="section" class="booking">
         <form action="book-form.php" method="post" class="book-form">
             <div class="flex">
                 <div class="inputbox">
@@ -50,20 +52,48 @@
                     <input type="text" placeholder="Enter your address " name="address">
                 </div>
                 <div class="inputbox">
+                    <span>Country :</span>
+                    <select  name="country">
+                        <option value="Australia">Australia</option>
+                        <option value="Spain">Spain</option>
+                        <option value="India">India</option>
+                        <option value="Japan">Japan</option>
+                        <option value="France">France</option>
+                    </select>
+                </div>
+                <div class="inputbox">
+                    <span>State :</span>
+                    <select  name="state">
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="lakshadweep">lakshadweep</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Goa">Goa</option>
+                    </select>
+                </div>
+                <div class="inputbox">
                     <span>Destination :</span>
-                    <input type="text" placeholder="Place you want to visit " name="location">
-                </div><div class="inputbox">
+                    <input type="text" placeholder="Specify Location name if necessary " name="location">
+                </div>
+                <div class="inputbox">
                     <span>Number of People :</span>
                     <input type="number" placeholder="Number of Members " name="guests">
                 </div>
                 <div class="inputbox">
-                    <span>Arrivals :</span>
-                    <input type="date"  name="arrivals">
+                    <span>Period of Trip :</span>
+                    <input type="number" placeholder="Number of Members " name="period">
                 </div>
                 <div class="inputbox">
-                    <span>Leaving :</span>
-                    <input type="date"  name="leaving">
+                    <span>Budget :</span>
+                    <select  name="budget">
+                        <option value="0-25000">0-25000</option>
+                        <option value="25000-50000">25000-50000</option>
+                        <option value="50000-75000">50000-75000</option>
+                        <option value="75000-100000">75000-100000</option>
+                    </select>
                 </div>
+
             </div>
 
             <input type="submit" value="submit" class="btn" name="send">

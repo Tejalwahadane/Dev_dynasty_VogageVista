@@ -1,3 +1,4 @@
+<!--  -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,14 +26,161 @@
 
         <div id="menu-btn" class="fas fa-bars"></div>
     </section>
-    <!-- Header section ends here -->
+
+<!-- Header section ends here -->
 
 <!-- Main starts here -->
 
+    <!-- home Section starts here  -->
+    <div class="slider">
+        <div class="slides">
+            <img src="Images/Slides/beach.jpg" alt="Image 1" class="slide">
+            <img src="Images/Slides/hs2.jpg" alt="Image 2" class="slide">
+            <img src="Images/Slides/hs3.jpg" alt="Image 3" class="slide">
+            <!-- Add more images here -->
+    </div>
+  </div>
+ <!-- home Section ends here  -->
 
+
+
+    <!-- services section starts here-->
+    <section class="services">
+        <h1 class="heading-title"> Our Services</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./Images/home-icon.png" alt="" height="100px" width="100px">
+                <h2>Adventure</h2>
+            </div>
+
+            <div class="box">
+                <img src="./Images/tour-guide.png" alt="" height="100px" width="100px">
+                <h2>Tour Guide</h2>
+            </div>
+
+            <div class="box">
+                <img src="./Images/trekking-icon.png" alt="" height="100px" width="100px">
+                <h2>Trekking </h2>
+            </div>
+
+            <div class="box">
+                <img src="./Images/camping-icon.png" alt="" height="100px" width="100px">
+                <h2>Camping </h2>
+            </div>
+
+            <div class="box">
+                <img src="./Images/offroad.png" alt="" height="100px" width="100px">
+                <h2>Off Road </h2>
+            </div>
+        </div>
+    </section>
+    <!-- Services section ends here -->
+
+    <!-- home about section starts -->
+    <section class="home-about">
+
+        <div class="image">
+            <img src="./Images/about-us.jpg" alt="About Us ">
+        </div>
+
+
+        <div class="content">
+            <h3>About Us</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est quas saepe, harum modi non optio
+            sint, possimus maiores ratione deserunt iste voluptate provident sit tenetur molestias corporis praesentium
+            doloribus, omnis cumque voluptatibus incidunt nam nostrum? Cupiditate tempore laudantium laboriosam!</p>
+            <a href="about.php" class="btn">Read More</a>
+        </div>
+    </section>
+    <!-- home about section endss -->
+
+
+
+
+<label for="stateSelect">Select your state:</label>
+<select id="stateSelect" name="stateSelect">
+    <option value="">Select...</option>
+    <option value="Kerala">Kerala</option>
+    <option value="Rajasthan">Rajasthan</option>
+    <option value="Goa">Goa</option>
+    <!-- Add more options as needed -->
+</select>
+
+<div id="keralaContent" class="hidden">
+    <h2>Kerala Content</h2>
+    <p>This content is specific to Kerala.</p>
+    <div id="servicesDropDown">
+          <div class="boxDropDown">
+              <img src="images/catering-img.jpg" alt="">
+              <h2 class="h-secondary center">Food Catering</h2>
+              <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et qui, repudiandae similique nam, recusandae quidem ab asperiores ex, aut fugit labore veritatis facere?
+                  sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                  voluptas beatae facilis labore, omnis sint quae eum.</p>
+          </div>
+          <div class="boxDropDown">
+              <img src="images/bulk-img.jpeg" alt="">
+              <h2 class="h-secondary center">Bulk Ordering</h2>
+              <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium a incidunt animi ad, ab dignissimos vero? Unde numquam odit repudiandae perferendis nisi.
+
+                  sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                  voluptas beatae facilis labore, omnis sint quae eum.</p>
+          </div>
+          <div class="boxDropDown">
+              <img src="delivery-image.avif" alt="">
+              <h2 class="h-secondary center">Food Ordering</h2>
+              <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident fugiat aliquam minima at explicabo. Earum eveniet quaerat, sunt molestias nesciunt quas! Quis.
+                  sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                  voluptas beatae facilis labore, omnis sint quae eum.</p>
+          </div>
+      </div>
+</div>
+
+<div id="rajasthanContent" class="hidden">
+    <h2>California Content</h2>
+    <p>This content is specific to California.</p>
+</div>
+
+<div id="GoaContent" class="hidden">
+    <h2>Texas Content</h2>
+    <p>This content is specific to Texas.</p>
+</div>
+
+<script>
+    // JavaScript to show/hide content based on state selection
+    document.getElementById("stateSelect").addEventListener("change", function() {
+        var selectedState = this.value.trim();
+        var keralaContent = document.getElementById("keralaContent");
+        var rajasthanContent = document.getElementById("rajasthanContent");
+        var GoaContent = document.getElementById("GoaContent");
+
+        // Hide all content initially
+        keralaContent.classList.add("hidden");
+        rajasthanContent.classList.add("hidden");
+        GoaContent.classList.add("hidden");
+
+        // Show content based on selected state
+        switch (selectedState) {
+            case "Kerala":
+                keralaContent.classList.remove("hidden");
+                break;
+            case "Rajasthan":
+                rajasthanContent.classList.remove("hidden");
+                break;
+            case "Goa":
+                GoaContent.classList.remove("hidden");
+                break;
+            // Add more cases for additional states
+        }
+    });
+</script>
 <!-- Main ends here -->
 <!-- Footer Section Starts -->
-    <footer>
+<footer>
         <div id="foot1">
             <div id="link1">
                 <div id="t1">USEFUL LINKS</div>
