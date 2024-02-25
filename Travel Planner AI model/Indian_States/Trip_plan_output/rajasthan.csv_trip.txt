@@ -1,0 +1,36 @@
+HERE IS YOUR TRIP PLAN........  :)
+
+-------------------------------------------------------------------------------------------
+Number of people in your trip : 5
+Your budget : 75000
+Estimated Cost: 65000
+Total number of days for your trip : 5
+-------------------------------------------------------------------------------------------
+Day 1:
+Place to visit: Jodhpur (The Blue City)
+Description: Renowned for its iconic Mehrangarh Fort, blue houses, and desert landscape.
+Activities: Exploring Mehrangarh Fort, Jaswant Thada, Umaid Bhawan Palace, Toorji Ka Jhalra, enjoying panoramic views from the fort, shopping for handicrafts.
+Rating: 4.5	 Reviews: 10,421
+
+---- ---------------------------------------------------------------------------------------
+Day 2:
+Place to visit: Ranthambore National Park
+Description: One of India's most renowned national parks, famous for tiger sightings and diverse wildlife.
+Activities: Jeep safaris to spot tigers, other wildlife viewing, exploring Ranthambore Fort, birdwatching, enjoying nature walks.
+Rating: 4.2	 Reviews: 5,241
+
+---- ---------------------------------------------------------------------------------------
+Day 3:
+Place to visit: Pushkar
+Description: Holy town known for its Brahma Temple, Pushkar Lake, and annual camel fair.
+Activities: Visiting Brahma Temple, witnessing aarti ceremony at Pushkar Lake, exploring Ghats and temples, attending the Pushkar Camel Fair (November), experiencing desert safaris.
+Rating: 4.3	 Reviews: 5,847
+
+---- ---------------------------------------------------------------------------------------
+Day 4:
+Place to visit: Kumbhalgarh Fort
+Description: Second largest fort in Rajasthan, known for its massive walls and scenic location.
+Activities: Exploring Kumbhalgarh Fort, visiting Jain temples within the fort, enjoying trekking trails, witnessing sunrise/sunset views.
+Rating: 4.4	 Reviews: 2,317
+
+---- ---------------------------------------------------------------------------------------

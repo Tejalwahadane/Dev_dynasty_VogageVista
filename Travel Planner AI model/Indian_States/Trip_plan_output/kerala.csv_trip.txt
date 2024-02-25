@@ -1,0 +1,36 @@
+HERE IS YOUR TRIP PLAN........  :)
+
+-------------------------------------------------------------------------------------------
+Number of people in your trip : 5
+Your budget : 60000
+Estimated Cost: 65000
+Total number of days for your trip : 5
+-------------------------------------------------------------------------------------------
+Day 1:
+Place to visit: Kochi (Fort Kochi & Mattancherry)
+Description: Historic port city with Portuguese, Dutch, and British influences, known for its Jewish synagogue, spice markets, and vibrant culture.
+Activities: Exploring heritage sites like Mattancherry Palace and Jewish Synagogue, shopping for spices and souvenirs, attending performances like Kathakali dance.
+Rating: 4.0	 Reviews: 580
+
+---- ---------------------------------------------------------------------------------------
+Day 2:
+Place to visit: Kovalam
+Description: Popular beach destination with palm-fringed beaches, rocky cliffs, and resorts providing ayurvedic treatments.
+Activities: Swimming, sunbathing, surfing, visiting historical sites like Velankanni Church, experiencing sunset views.
+Rating: 4.0	 Reviews: 444
+
+---- ---------------------------------------------------------------------------------------
+Day 3:
+Place to visit: Wayanad
+Description: Lush green hill station known for its wildlife sanctuaries, waterfalls, trekking trails, and coffee plantations.
+Activities: Wildlife spotting in Periyar National Park, trekking through rainforests, visiting Edakkal Caves (prehistoric cave paintings), enjoying scenic beauty.
+Rating: 4.3	 Reviews: 1,097
+
+---- ---------------------------------------------------------------------------------------
+Day 4:
+Place to visit: Bekal
+Description: Secluded beach town known for its pristine beaches, historic fort, and laid-back vibe.
+Activities: Swimming, sunbathing, exploring Bekal Fort, witnessing sunset views, enjoying water sports.
+Rating: 4.5	 Reviews: 29,606
+
+---- ---------------------------------------------------------------------------------------

@@ -1,0 +1,29 @@
+HERE IS YOUR TRIP PLAN........  :)
+
+-------------------------------------------------------------------------------------------
+Number of people in your trip : 5
+Your budget : 55000
+Estimated Cost: 54500
+Total number of days for your trip : 4
+-------------------------------------------------------------------------------------------
+Day 1:
+Place to visit: Old Goa
+Description: Historical capital city with Portuguese colonial architecture and churches.
+Activities: UNESCO World Heritage Sites, narrow streets, museums, art galleries.
+Rating: 4.6	 Reviews: 1,127
+
+---- ---------------------------------------------------------------------------------------
+Day 2:
+Place to visit: Dudhsagar Falls
+Description: One of the tallest waterfalls in India, nestled amidst lush greenery.
+Activities: Trekking (monsoon), witnessing falls, scenic beauty, jeep safari.
+Rating: 4.6	 Reviews: 2,345
+
+---- ---------------------------------------------------------------------------------------
+Day 3:
+Place to visit: Spice Plantations
+Description: Learn about the history and cultivation of spices in Goa.
+Activities: Guided tours, learning about spices, processing methods, spice tasting.
+Rating: 4.4	 Reviews: 321
+
+---- ---------------------------------------------------------------------------------------
