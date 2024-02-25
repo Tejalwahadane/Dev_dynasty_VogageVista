@@ -113,16 +113,16 @@
     <p>This content is specific to Kerala.</p>
     <div id="servicesDropDown">
           <div class="boxDropDown">
-              <img src="images/catering-img.jpg" alt="">
-              <h2 class="h-secondary center">Food Catering</h2>
+              <img src="Images/img.jpg" alt="">
+              <h2 class="h-secondary center">Wayanad</h2>
               <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et qui, repudiandae similique nam, recusandae quidem ab asperiores ex, aut fugit labore veritatis facere?
                   sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
                   voluptas beatae facilis labore, omnis sint quae eum.</p>
           </div>
           <div class="boxDropDown">
-              <img src="images/bulk-img.jpeg" alt="">
-              <h2 class="h-secondary center">Bulk Ordering</h2>
+              <img src="Images/beach.jpg" alt="">
+              <h2 class="h-secondary center">Kochi</h2>
               <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium a incidunt animi ad, ab dignissimos vero? Unde numquam odit repudiandae perferendis nisi.
 
@@ -130,8 +130,8 @@
                   voluptas beatae facilis labore, omnis sint quae eum.</p>
           </div>
           <div class="boxDropDown">
-              <img src="delivery-image.avif" alt="">
-              <h2 class="h-secondary center">Food Ordering</h2>
+              <img src="Images/beach.jpg" alt="">
+              <h2 class="h-secondary center">Munnar</h2>
               <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident fugiat aliquam minima at explicabo. Earum eveniet quaerat, sunt molestias nesciunt quas! Quis.
                   sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
@@ -141,13 +141,13 @@
 </div>
 
 <div id="rajasthanContent" class="hidden">
-    <h2>California Content</h2>
-    <p>This content is specific to California.</p>
+    <h2>Rajasthan Content</h2>
+    <p>This content is specific to Rajasthan.</p>
 </div>
 
 <div id="GoaContent" class="hidden">
-    <h2>Texas Content</h2>
-    <p>This content is specific to Texas.</p>
+    <h2>Goa Content</h2>
+    <p>This content is specific to Goa.</p>
 </div>
 
 <script>
