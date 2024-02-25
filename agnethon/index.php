@@ -46,7 +46,7 @@
 
     <!-- services section starts here-->
     <section class="services">
-        <h1 class="heading-title"> Our Services</h1>
+        <h1 class="services-title"> Our Services</h1>
 
         <div class="box-container">
 
@@ -61,7 +61,7 @@
             </div>
 
             <div class="box">
-                <img src="./Images/trekking-icon.png" alt="" height="100px" width="100px">
+                <img src="./Images/hiking.png" alt="" height="100px" width="100px">
                 <h2>Trekking </h2>
             </div>
 
